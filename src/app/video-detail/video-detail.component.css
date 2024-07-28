@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.video-detail {
+  flex: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-stats {
+  display: flex;
+  flex-direction: row;
+}
+
+.view-info {
+  flex: 50%;
+}
+
+.like-dislike {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.suggestion-bar {
+  flex: 30%;
+  margin-left: 5%;
+}

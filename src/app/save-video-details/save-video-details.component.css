@@ -1,0 +1,13 @@
+.save-video-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.spacer {
+  flex: 1 1 20%;
+}
+
+.content {
+  flex: 1 1 30%;
+}

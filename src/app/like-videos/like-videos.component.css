@@ -1,0 +1,41 @@
+.sidenav-container {
+  display: flex;
+}
+
+.sidenav-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 16px;
+}
+
+.row-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex: 1 1 20%;
+  margin-bottom: 12px; /* Adjust this if you need spacing between rows */
+}
+
+@media (max-width: 1024px) {
+  .flex-item {
+    flex: 1 1 30%; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-item {
+    flex: 1 1 45%; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .flex-item {
+    flex: 1 1 100%; /* Adjust for smallest screens */
+  }
+}
